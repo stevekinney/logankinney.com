@@ -37,3 +37,11 @@ a {
 a:hover {
   color: #00849b;
 }
+
+#mc_embed_signup form {
+  padding: 10px 0 10px 0 !important;
+}
+
+#mc_embed_signup form h2 {
+  font-size: 3em !important;
+}
