@@ -1,0 +1,39 @@
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC:700|Open+Sans:400,700);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  margin: 1em auto 3em auto;
+  width: 600px;
+}
+
+h1, h2 {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 6em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3em;
+  margin-bottom: 0;
+}
+
+a {
+  color: #00bfe1;
+  text-decoration: none;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  transition: all 0.5s linear; 
+}
+
+a:hover {
+  color: #00849b;
+}
