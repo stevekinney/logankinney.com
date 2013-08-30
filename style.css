@@ -54,6 +54,9 @@ a:hover {
 
 section#social {
   text-align: center;
+  background-color: #F9F9F9;
+  padding: 10px;
+  border: 1px dashed #CCC;
 }
 
 .fb-like {
