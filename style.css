@@ -51,3 +51,11 @@ a:hover {
 #mc_embed_signup form h2 {
   font-size: 3em !important;
 }
+
+.fb-like {
+  float: left;
+}
+
+.twitter {
+  float: right;
+}

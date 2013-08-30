@@ -7,6 +7,15 @@
 	</head>
 	<body>
     <div class="container">
+      <div id="fb-root"></div>
+      <script>(function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));</script>
+      
   		<h1 id="title">Logan Kinney, RYT</h1>
       <p class="subtitle">Glow and Flow Yoga, LLC</p>
 
@@ -32,11 +41,11 @@
     
       <p>Sign up with me for a 5 class intensive, where we will discuss your birth plan, and how yoga can make that plan a reality. The journey of pregnancy and birth is transformational, and yoga can help you gain physical and emotional strength as you grow along the way!</p>
       
-      <div>
+      <section id="social">
         <div class="fb-like" data-width="450" data-colorscheme="light" data-layout="standard" data-action="like" data-show-faces="false" data-send="false"></div>
-        <a href="https://twitter.com/yogabeachnbaby" class="twitter-follow-button" data-show-count="false" data-dnt="true">Follow @yogabeachnbaby</a>
+        <div class="twitter"><a href="https://twitter.com/yogabeachnbaby" class="twitter-follow-button" data-show-count="false" data-dnt="true">Follow @yogabeachnbaby</a></div>
         <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
-      </div>
+      </section>
         
       <!-- Begin MailChimp Signup Form -->
       <link href="http://cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
@@ -235,14 +244,6 @@
       }
 
       </script>
-      <div id="fb-root"></div>
-      <script>(function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
     </div>
 	</body>
 </html>
