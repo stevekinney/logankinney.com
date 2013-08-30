@@ -70,3 +70,8 @@ section {
 .twitter {
   display: inline;
 }
+
+#birthdays {
+  text-align: center;
+  padding: 20px;
+}
