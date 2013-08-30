@@ -9,7 +9,7 @@ body {
   width: 650px;
 }
 
-h1, h2, .subtitle {
+h1, h2, .subtitle, #birthdays {
   font-family: 'Amatic SC', cursive;
   font-weight: 700;
 }
@@ -19,7 +19,7 @@ h1 {
   text-align: center;
 }
 
-h2 {
+h2, #birthdays {
   font-size: 3em;
   margin-bottom: 0;
 }
