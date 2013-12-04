@@ -52,21 +52,9 @@ a:hover {
   font-size: 3em !important;
 }
 
-section#social, #birthdays {
+#birthdays {
   text-align: center;
   background-color: #F9F9F9;
   padding: 10px;
   border: 1px dashed #CCC;
-}
-
-.fb-like {
-  display: inline;
-}
-
-.fb-like > span {
-  width: 400px;
-}
-
-.twitter {
-  display: inline;
 }
