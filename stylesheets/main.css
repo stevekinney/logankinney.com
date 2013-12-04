@@ -58,3 +58,7 @@ a:hover {
   padding: 10px;
   border: 1px dashed #CCC;
 }
+
+#social {
+  text-align: center;
+}
