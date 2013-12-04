@@ -1,0 +1,72 @@
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC:700|Open+Sans:400,700);
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  margin: 1em auto 3em auto;
+  width: 650px;
+}
+
+h1, h2, .subtitle, #birthdays {
+  font-family: 'Amatic SC', cursive;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 6em;
+  text-align: center;
+}
+
+h2, #birthdays {
+  font-size: 3em;
+  margin-bottom: 0;
+}
+
+.subtitle {
+  font-size: 3em;
+  margin-top: -1em;
+  text-align: center;
+}
+
+a {
+  color: #00bfe1;
+  text-decoration: none;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  -o-transition: all 0.5s linear;
+  -ms-transition: all 0.5s linear;
+  transition: all 0.5s linear; 
+}
+
+a:hover {
+  color: #00849b;
+}
+
+#mc_embed_signup form {
+  padding: 10px 0 10px 0 !important;
+}
+
+#mc_embed_signup form h2 {
+  font-size: 3em !important;
+}
+
+section#social, #birthdays {
+  text-align: center;
+  background-color: #F9F9F9;
+  padding: 10px;
+  border: 1px dashed #CCC;
+}
+
+.fb-like {
+  display: inline;
+}
+
+.fb-like > span {
+  width: 400px;
+}
+
+.twitter {
+  display: inline;
+}
